@@ -2,6 +2,7 @@ import { useState } from 'react'
 import '../css/App.css'
 import JobData from "./jobdata"
 import Nav from "./navcomp"
+import logo from "../../assets/logo.png"
 // import JobList from '../search/index'
 
 
@@ -17,7 +18,7 @@ const Home=()=>{
     return(
         <div className='body'>
             <div className="top">
-                <img src="./src/assets/logo.png"></img>
+                <img src={logo} alt="logo"/>
                 <h1>Workforce Africa</h1>
             </div>
             <div className='outernav'>
